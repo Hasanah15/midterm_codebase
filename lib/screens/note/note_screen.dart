@@ -3,7 +3,16 @@
 
 import 'package:flutter/material.dart';
 
-class NoteScreen extends StatelessWidget {
+//class NoteScreen extends StatelessWidget {
+  //NoteScreen(this._note);
+  //final mockNoteList _note;
+   @override
+  _//NoteScreenState createState() => _NoteScreenState();
+
+
+//class _NoteScreenState extends State<NoteScreen> {
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

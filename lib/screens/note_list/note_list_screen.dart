@@ -3,10 +3,15 @@
 
 import 'package:flutter/material.dart';
 
+
 class NoteListScreen extends StatefulWidget {
+  NoteListScreen(this._note);
+  
+  final List<note> _note;
+
   @override
-  _NoteListScreenState createState() => _NoteListScreenState();
-}
+_NoteListScreenState createState() => _NoteListScreenState();
+
 
 class _NoteListScreenState extends State<NoteListScreen> {
   @override
@@ -69,4 +74,5 @@ class _NoteListScreenState extends State<NoteListScreen> {
       ),
     );
   }
+}
 }
